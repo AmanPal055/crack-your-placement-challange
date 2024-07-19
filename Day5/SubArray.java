@@ -3,7 +3,6 @@ class Solution {
         // Map to store the frequency of remainders
         Map<Integer, Integer> remainders = new HashMap<>();
         remainders.put(0, 1); // Initialize with 0 remainder to handle subarrays starting from index 0
-
         int currentSum = 0; // Variable to store the cumulative sum
         int cnt = 0; // Variable to count the number of valid subarrays
 
